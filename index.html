@@ -80,13 +80,13 @@
         <!-- This is Book Now section -->
         <form action="">
             <h2>Book Now</h2>
-            <label>Name:</label>
-            <input type="text" minlength="3" maxlength="20" />
-            <label>Email:</label>
-            <input type="email" />
-            <label>Phone:</label>
-            <input type="number" minlength="10" />
-            <input type="submit">
+            <label for="name">Name:</label>
+            <input id="name" type="text" minlength="3" maxlength="20" required />
+            <label for="email">Email:</label>
+            <input id="email" type="email" required />
+            <label for="phone">Phone:</label>
+            <input id="phone" type="phone" minlength="10" required />
+            <input type="submit" value="Submit The Form">
         </form>
         <br><br>
 
